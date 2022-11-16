@@ -46,7 +46,7 @@ print(result_one) # -> 56.099999999999994
 print(result_two) # -> 171.60000000000002
 ```
 
-## Converting Float -> Integer
+## Converting Between Float & Integer
 
 The relationship between floats and integers can be annoying if you don't understand how to handle both at once.
 
