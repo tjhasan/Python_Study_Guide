@@ -65,4 +65,3 @@ first_dict = {
 }
 ```
 In the above example, each students name correspondes to their personal information. Therefore, it makes sense to organize it all in a dictionary since the pairing comes out naturally.
-```
