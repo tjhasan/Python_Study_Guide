@@ -6,7 +6,7 @@ For example, Java uses a combination of `int`, `byte`, `short` and `long` for in
 
 Python only uses `int`.
 
-Python has 4 "Primitive" data types and 4 "Non-Primitive" data types.
+Python has 4 "Primitive" data types and 3 "Non-Primitive" data types (technically 4 Non-Primitive but we're not going to count Sets).
 
 The difference between Primitive and Non-Primitive becomes more apparent once you get to actually using them, but the main idea is: **Non-Primitive data types store Primitive data within them.**
 
