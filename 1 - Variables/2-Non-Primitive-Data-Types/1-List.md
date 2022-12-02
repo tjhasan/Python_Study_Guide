@@ -71,6 +71,22 @@ first_list[2] = "Replacement!!"
 
 print(first_list[2]) # -> Replacement
 ```
+## Strings and Lists:
+
+In Python, all strings are inherently also lists. It's good to think of strings as "a list of characters".
+
+Because of this, strings can be manipulated and accessed in the same way as other lists.
+
+```python
+string_one = "Test String"
+
+print(string_one[0]) # -> 'T'
+print(string_one[1]) # -> 'e'
+
+string_one[0] = 'B'
+
+print(string_one) # -> "Best String"
+```
 
 ## Practical Use of a List
 
