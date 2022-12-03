@@ -6,7 +6,7 @@ Read the instructions for each question carefully before you begin typing your c
 
 Write your code into the place with the comment `# YOUR CODE HERE!!!`. Ignore everything else. 
 
-If you programmed it correctly, you should receive a **"YOU PASSED!"** message appear in your terminal. 
+If you programmed it correctly, you should see a **"YOU PASSED!"** message appear in your terminal. 
 
 # Question 1
 ```python
@@ -70,14 +70,14 @@ for number, expected in q_and_a.items():
         print("Number grade: " + q_and_a.keys()[i])
         print("Expected Grade: " + expected)
         print("Grade given by code: " + result)
-        print("TEST CASE " + str(i) + "FAILED!")
+        print("TEST CASE " + str(i) + "FAILED! \n")
     
     elif result == expected:
         passed += 1
-        print("TEST CASE " + str(i) + " PASSED!!")
+        print("TEST CASE " + str(i) + " PASSED!! \n")
 
 if passed == len(q_and_a):
-    print("All test cases passed. Nice job!")
+    print("YOU PASSED!. Nice job!")
 else:
     print("Failed one or more test cases. Adjust code and try again.")
 ```
@@ -128,16 +128,16 @@ for strings, expected in q_and_a.items():
 
     if result != expected:
         if result is False:
-            print("Got False. Expected True")
+            print("Got False. Expected True \n")
         else:
-            print("Got True. Expected False")
+            print("Got True. Expected False \n")
 
     elif result == expected:
         passed += 1
-        print("TEST CASE " + str(i) + " PASSED!!")
+        print("TEST CASE " + str(i) + " PASSED!! \n")
 
 if passed == len(q_and_a):
-    print("All test cases passed. Nice job!")
+    print("YOU PASSED! Nice job!")
 else:
     print("Failed one or more test cases. Adjust code and try again.")
 ```
@@ -207,7 +207,7 @@ for number, expected in q_and_a.items():
         print("TEST CASE " + str(i) + " PASSED!! \n")
 
 if passed == len(q_and_a):
-    print("All test cases passed. Nice job!")
+    print("YOU PASSED! Nice job!")
 else:
     print("Failed one or more test cases. Adjust code and try again.")
 ```
