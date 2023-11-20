@@ -57,3 +57,10 @@ To create a comment in your code, simply type `# ` before your comment:
 print("This statement is not affected by the comment")
 ```
 Comments are ignored by the compiler and do not actually do anything in your code. They are exclusively used for documentation or personal notes.
+
+
+### Googling
+
+Googling is a key skill for any software engineer. You will rarely know everything you need to know to solve the problems you face. Therefore, feel free to Google for help if you need it. However, be mindful that the first 3 sections or so are very basic and you should avoid it if you can.
+
+That being said, when working on an assignment problem, you may come across a question in which I ask something of you that wasn't explicity taught in that section. This is intentional in that I want you to get comfortable Googling for solutions when errors pop up as you run your programs. For example, Question 3 of the if statements assignment, I give a hint to use 'modulo'. I mention this any of the previous sections intentionally so that you can look this up yourself and get used to handling information you're not familiar with.

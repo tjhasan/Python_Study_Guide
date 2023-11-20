@@ -125,7 +125,7 @@ The following symbols can be used to compare different variables to create boole
 | Syntax      | Description |
 | ----------- | ----------- |
 | `==` | Equal to |
-| `!=` | Text |
+| `!=` | Not Equal to |
 | `<` | Less than |
 | `>` | Greater than |
 | `>=` | Less than or equal to |
